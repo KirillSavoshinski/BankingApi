@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankingApi</name>
+    </assembly>
+    <members>
+        <member name="M:BankingApi.Controllers.AccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{BankingApi.Entities.Customer},Microsoft.AspNetCore.Identity.SignInManager{BankingApi.Entities.Customer},BankingApi.Interfaces.ITokenService,AutoMapper.IMapper)">
+            <summary>
+            </summary> 
+        </member>
+        <member name="M:BankingApi.Controllers.AccountController.SignUp(BankingApi.DTOs.RegisterDto)">
+            <summary>
+            Creates user account
+            </summary>
+        </member>
+        <member name="M:BankingApi.Controllers.AccountController.Login(BankingApi.DTOs.LoginDto)">
+            <summary>
+            Login endpoint
+            </summary>
+        </member>
+        <member name="M:BankingApi.Controllers.BankAccountController.CreateBankAccount(BankingApi.DTOs.CreateBankAccountDto)">
+            <summary>
+            Creates new bank account
+            </summary> 
+        </member>
+        <member name="M:BankingApi.Controllers.BankAccountController.GetBalance(System.String)">
+            <summary>
+            Returns balance for bank account
+            </summary>
+            <param name="accountNumber">Number of bank account</param> 
+        </member>
+        <member name="M:BankingApi.Controllers.BankAccountController.GetHistory(System.String)">
+            <summary>
+            Returns history of transactions for bank account
+            </summary>
+            <param name="accountNumber">Number of bank account</param> 
+        </member>
+        <member name="M:BankingApi.Controllers.TransactionController.CreateTransaction(BankingApi.DTOs.CreateTransactionDto)">
+            <summary>
+            Creates transaction
+            </summary> 
+        </member>
+    </members>
+</doc>
